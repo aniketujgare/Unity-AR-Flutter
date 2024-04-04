@@ -41,29 +41,33 @@ public class OrbitCamera : MonoBehaviour
 
     void Update()
     {
-        if (a)
-            try
-            {
+        if(target == null)
+        {
+            target = GameObject.Find("Model Holder").transform;
+        }
+        //if (a)
+        //    try
+        //    {
 
-                Transform childTransform = loadedGameObject.transform.GetChild(0);
+        //        Transform childTransform = loadedGameObject.transform.GetChild(0);
 
 
-                if (childTransform != null)
-                {
-                    target = childTransform;
-                    initialDistanceToTarget = Vector3.Distance(transform.position, target.position);
-                    a = false;
-                    print("lol");
-                }
-                else
-                {
-                    Debug.LogError("No child objects found!");
-                }
-            }
-            catch (System.Exception e)
-            {
-                Debug.Log(e);
-            }
+        //        if (childTransform != null)
+        //        {
+        //            target = childTransform;
+        //            initialDistanceToTarget = Vector3.Distance(transform.position, target.position);
+        //            a = false;
+        //            print("lol");
+        //        }
+        //        else
+        //        {
+        //            Debug.LogError("No child objects found!");
+        //        }
+        //    }
+        //    catch (System.Exception e)
+        //    {
+        //        Debug.Log(e);
+        //    }
 
 
         if (Input.touchCount == 1 && !isZooming)

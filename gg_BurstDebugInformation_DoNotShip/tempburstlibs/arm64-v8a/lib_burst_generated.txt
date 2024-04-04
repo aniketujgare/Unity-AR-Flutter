@@ -1,4 +1,4 @@
-Library: /Users/vr2alitymac/Downloads/PlaneTracking-ARFoundationUnity3D-main 3/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
+Library: /Users/vr2alitymac/Downloads/Unity AR Flutter/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --platform=Android
 --backend=burst-llvm-15
 --target=ARMV8A_AARCH64
@@ -11,6 +11,7 @@ Library: /Users/vr2alitymac/Downloads/PlaneTracking-ARFoundationUnity3D-main 3/T
 --assembly-defines=glTFast;
 --assembly-defines=Mono.Security;
 --assembly-defines=mscorlib;
+--assembly-defines=Nobi.UiRoundedCorners;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
 --assembly-defines=System;
@@ -27,11 +28,10 @@ Library: /Users/vr2alitymac/Downloads/PlaneTracking-ARFoundationUnity3D-main 3/T
 --assembly-defines=Unity.XR.Management;
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp/burst.link.xml
---temp-folder=/Users/vr2alitymac/Downloads/PlaneTracking-ARFoundationUnity3D-main 3/Temp/Burst
---debug=Full
+--temp-folder=/Users/vr2alitymac/Downloads/Unity AR Flutter/Temp/Burst
 --key-folder=/Applications/Unity/Hub/Editor/2022.3.10f1/PlaybackEngines/AndroidPlayer
---decode-folder=/Users/vr2alitymac/Downloads/PlaneTracking-ARFoundationUnity3D-main 3/Library/Burst
---output=/Users/vr2alitymac/Downloads/PlaneTracking-ARFoundationUnity3D-main 3/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
+--decode-folder=/Users/vr2alitymac/Downloads/Unity AR Flutter/Library/Burst
+--output=/Users/vr2alitymac/Downloads/Unity AR Flutter/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[GLTFast.Jobs.ConvertUVsFloatToFloatInterleavedJob, glTFast, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(GLTFast.Jobs.ConvertUVsFloatToFloatInterleavedJob&, glTFast, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--5c7db452ab5796006eecfe194a0df4b9
